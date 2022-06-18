@@ -101,4 +101,59 @@ button {
   margin-bottom: 0px;
   margin-top: 10px;
   border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1440px) {
+  .design {
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+  }
+
+  .text {
+    width: 35%;
+    float: left;
+    margin: 15% 5%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .registration {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .design {
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+  }
+
+  .text {
+    width: 90%;
+    float: none;
+    margin: 15% 5%;
+  }
+
+  .registration {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 90%;
+  }
 }

@@ -1,57 +1,158 @@
-body{
-    color: aliceblue;
-    background-color: hsl(0, 100%, 74%);
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+html {
+  height: 100%;
 }
 
-h1{
-    font-weight: 700;
-    width: 80%;
+body {
+  color: aliceblue;
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5%;
+  height: 100%;
+  overflow: hidden;
 }
 
-text_text{
-    font-weight: 400;
-    width: 100%;
+h1.text {
+  font-weight: 700;
+  width: 80%;
 }
 
-.design{
-    width: 100%;
+.text_text {
+  font-weight: 400;
+  width: 100%;
 }
 
-.text{
-    width: 35%;
-    float: left;
-    margin: 15% 5%;
+.design {
+  width: 100%;
+  margin: 0%;
+  height: 100%;
 }
 
-*{
-    box-sizing: border-box;
+.text {
+  width: 35%;
+  float: left;
+  margin: 15% 5%;
 }
 
-.registration{
-    width: 40%;
-    float: left;
-    margin-right: 10%;
+* {
+  box-sizing: border-box;
+}
+
+.registration {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 0%;
+  height: 90%;
 }
 
 .advert {
-    width: 100%;
-    text-align: center;
-    padding: 2px;
-    margin: 20px;
-    font-weight: 600;
+  width: 90%;
+  text-align: center;
+  padding: 2px;
+  margin: 20px 5%;
+  font-weight: 600;
+  border-radius: 5px;
 }
 
 input {
-    border-color: hsl(0, 100%, 74%);
-    width: 90%;
-    float: none;
-    padding: 12px 20px;
-    margin: 5% 5%;
+  width: 100%;
+  background-color: white;
+  border-color: beige;
+  float: none;
+  padding: 12px 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
 }
 
 .input_class {
-    margin: 0% 5%;
+  width: 90%;
+  background-color: white;
+  margin: 0% 5%;
+  margin-bottom: 0%;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+.text_in_input {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+  margin-right: 0%;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+button {
+  color: white;
+  border-color: hsl(158, 59%, 51%);
+  width: 100%;
+  float: none;
+  padding: 12px 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1440px) {
+  .design {
     width: 100%;
+    margin: 0%;
+    height: 100%;
+  }
+
+  .text {
+    width: 35%;
+    float: left;
+    margin: 15% 5%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .registration {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .design {
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+  }
+
+  .text {
+    width: 90%;
+    float: none;
+    margin: 15% 5%;
+  }
+
+  .registration {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 90%;
+  }
 }

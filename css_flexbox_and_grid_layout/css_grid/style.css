@@ -1,3 +1,38 @@
-body{
-    width: auto;
+.flex-container {
+  display: flex;
+  width: 96%;
+  margin: 7% 15%;
+  color: white;
+  font-size: 20px;
+}
+
+.sedans {
+  padding: 40px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 0% 0%;
+}
+
+.suvs {
+  padding: 40px;
+  background-color: darkblue;
+  border-radius: 10px;
+  margin: 0% 0%;
+}
+
+.luxury {
+  padding: 40px;
+  background-color: darkgreen;
+  border-radius: 10px;
+  margin: 0% 0%;
+}
+
+.learn-more {
+  padding: 20px;
+  margin-top: 60px;
+  background-color: white;
+  width: 70%;
+  font-size: 25px;
+  border-radius: 40px;
+  text-align: center;
 }
